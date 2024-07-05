@@ -10,3 +10,8 @@ https://youtube.com/live/lPk5D78wfpU
 [2024_07_03]
 
 https://youtube.com/live/tO89iVm6aes
+
+
+[2024_07_04]
+
+https://youtube.com/live/DxnAK8SSyJo

@@ -23,3 +23,8 @@ https://youtube.com/live/3CStEayJWGM
 [2024_07_08]
 
 https://youtube.com/live/BhqhhG05tlY
+
+
+[2024_07_10]
+
+https://youtube.com/live/nlamjFwUBYU

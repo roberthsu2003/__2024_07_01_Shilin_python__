@@ -1,7 +1,8 @@
+import learning
 
 def main():
-    print(f"我的index.py的名字是{__name__}")
-    print("我是主要的專案執行檔")
+    p1 = learning.getPerson(name="徐國堂")
+    print(p1.bmi_print())
 
 if __name__ == '__main__':
     main()

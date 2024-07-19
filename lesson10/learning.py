@@ -1,6 +1,12 @@
 
 import random
 class Person():
+    @staticmethod
+    def getPerson(name:str):
+        height = random.randint(150,190)
+        weight = random.randint(50,90)
+        return Person(n=name,h=height,w=weight)
+
     def __init__(self,n:str,h:int,w:int):
         self._name = n
         self._height = h

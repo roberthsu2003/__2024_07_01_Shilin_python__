@@ -43,3 +43,8 @@ https://youtube.com/live/q3som9BsJKg
 [2024_07_17]
 
 https://youtube.com/live/mMhwgnfTNWM
+
+
+[2024_07_19]
+
+https://youtube.com/live/l5H-SdgZmus

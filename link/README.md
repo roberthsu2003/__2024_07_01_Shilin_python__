@@ -48,3 +48,7 @@ https://youtube.com/live/mMhwgnfTNWM
 [2024_07_19]
 
 https://youtube.com/live/l5H-SdgZmus
+
+[2024_07_23]
+
+https://youtube.com/live/nrqEI7hdhnA

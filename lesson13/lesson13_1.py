@@ -2,6 +2,7 @@ import requests
 from requests import Response
 from pprint import pprint
 from requests import ConnectionError,TooManyRedirects,Timeout,HTTPError
+import pyinputplus as pyip
 
 def connect_youbike() -> Response | str:
     youbike_url = 'https://data.ntpc.gov.tw/api/datasets/010e5b15-3823-4b20-b401-b1cf000550c5/json?size=1000'
@@ -25,14 +26,21 @@ def search_area(response:Response,district:str)-> list[dict]:
     district_stations = [station for station in data if station['sarea'] == district]
     return district_stations  
 
+def get_areas(response:Response) -> list[str]:
+    data:list[dict] = response.json()
+    sareas:set = set()
+    for site in data:
+        sareas.add(site['sarea'])
+    return list(sareas)
+
 def main():
         response:Response | str = connect_youbike() 
         if not isinstance(response,Response):
             print(response)
             return
         
-        district:str = input("請輸入新北市行政區: ")
-        district += "區"        
+        areas = get_areas(response)
+        district:str = pyip.inputMenu(areas,"請輸入新北市行政區:\n",numbered=True)        
         district_stations = search_area(response,district)
         if district_stations:
             pprint(district_stations)

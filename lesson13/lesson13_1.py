@@ -22,10 +22,7 @@ def connect_youbike() -> Response | str:
         return response
 def search_area(response:Response,district:str)-> list[dict]:
     data:list[dict] = response.json()
-    district_stations = []
-    for station in data:
-        if station['sarea'] == district:
-            district_stations.append(station)
+    district_stations = [station for station in data if station['sarea'] == district]
     return district_stations  
 
 def main():

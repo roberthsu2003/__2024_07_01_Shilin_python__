@@ -60,3 +60,7 @@ https://youtube.com/live/6dZLjyASzeY
 [2024_07_29]
 
 https://youtube.com/live/oBRx8DxJ-JY
+
+[2024_08_01]
+
+https://youtube.com/live/BqVcTJjxvYA

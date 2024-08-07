@@ -76,3 +76,7 @@ https://youtube.com/live/EpuEddNIilY
 [2024_08_06]
 
 https://youtube.com/live/zsoOKEO1wjQ
+
+[2024_08_07]
+
+https://youtube.com/live/R9knbOrBiDA

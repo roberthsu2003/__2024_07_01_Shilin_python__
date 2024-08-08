@@ -80,3 +80,7 @@ https://youtube.com/live/zsoOKEO1wjQ
 [2024_08_07]
 
 https://youtube.com/live/R9knbOrBiDA
+
+[2024_08_08]
+
+https://youtube.com/live/brJzZErwXB8

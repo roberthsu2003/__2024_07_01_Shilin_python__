@@ -88,3 +88,7 @@ https://youtube.com/live/brJzZErwXB8
 [2024_08_09]
 
 https://youtube.com/live/HVBr46dIow8
+
+[2024_08_12]
+
+https://youtube.com/live/qt0fa12gwDQ

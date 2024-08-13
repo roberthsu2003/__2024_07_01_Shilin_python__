@@ -92,3 +92,7 @@ https://youtube.com/live/HVBr46dIow8
 [2024_08_12]
 
 https://youtube.com/live/qt0fa12gwDQ
+
+[2024_08_13]
+
+https://youtube.com/live/UOJ-e-gNh3k
